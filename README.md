@@ -1,7 +1,7 @@
-Tin
+Tin v0.1.0
 =====================================
 
-Tin (Time INterval) is a command-line tool that performs one simple, annoyingly
+Tin (**T**ime **In**terval) is a command-line tool that performs one simple, annoyingly
 common calculation: it finds the time in a set amount of time. This type of
 calculation frequently comes up when timing dinners, downloads and other mundane
 things.
@@ -33,7 +33,7 @@ sudo apt-get update
 sudo apt-get install nodejs
 ```
 
-Polonium depends on the following libraries:
+Tin depends on docopt to read arguments from the command-line.
 
 ```
 sudo npm install -g docopt
