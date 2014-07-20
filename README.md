@@ -1,7 +1,7 @@
 Tin v0.1.0
 =====================================
 
-Tin (**T**ime **In**terval) is a command-line tool that performs one simple, annoyingly
+Tin (**T**ime **In**terval, or **T**ime **In**) is a command-line tool that performs one simple, annoyingly
 common calculation: it finds the time in a set amount of time. This type of
 calculation frequently comes up when timing dinners, downloads and other mundane
 things.
@@ -57,6 +57,12 @@ add the line,
 
 ```bash
 alias tin=path/to/tin.py
+```
+
+Run
+
+```
+. ~/.bashrc
 ```
 
 and you're ready to go. Now you can test the program with
