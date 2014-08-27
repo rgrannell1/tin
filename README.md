@@ -43,31 +43,13 @@ sudo npm install -g docopt
 
 #### - Tin
 
-Grab the repository from github:
+To install tin run it's installer script.
 
 ```bash
-git clone https://github.com/rgrannell1/tin
-cd tin
+wget -q -O - https://raw.githubusercontent.com/rgrannell1/tin/master/install.sh | bash
 ```
 
-Run the following command:
-
-```bash
-sudo nano ~/.bashrc
-```
-add the line,
-
-```bash
-alias tin=path/to/tin.py
-```
-
-Run
-
-```
-. ~/.bashrc
-```
-
-and you're ready to go. Now you can test the program with
+To test tin use
 
 ```
 tin 0.5 hours
